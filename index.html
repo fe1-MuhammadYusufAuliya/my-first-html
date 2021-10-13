@@ -4,37 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="index.css">
     <title>Portfolio</title>
 </head>
 <body>
     <section id="landing">
-        <h1>Hello! I am Yusuf</h1>
-        <p>Currently I am still learning as Front End Developer with ALTERRA ACADEMY.</p>
+        <div class="">
+            <h1>Hello! I am Yusuf</h1>
+            <p>Currently I am still learning as Front End Developer with ALTERRA ACADEMY.</p>
+        </div>
     </section>
     <section id="skill">
         <h2>My current skill until now is</h2>
-        <ul>
-            <li>
-                <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Devicon-html5-plain-wordmark.svg/640px-Devicon-html5-plain-wordmark.svg.png" alt="HTML5" width="50" height="50">
+        <div class="flex-container">
+            <div class="skill-box">
+                <div class="icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Devicon-html5-plain-wordmark.svg/640px-Devicon-html5-plain-wordmark.svg.png" alt="HTML5" width="70" height="70" class="center">
                 </div>
-                <div>
+                <p>
                     HTML
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript" width="70" height="70" class="center">
                 </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="Javascript" width="50" height="50">
-                </div>
-                <div>
+                <p>
                     Javascript
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png" alt="CSS" width="70" height="70" class="center">
                 </div>
-            </li>
-        </ul>
+                <p>
+                    CSS
+                </p>
+            </div>
+        </div>
+        <p>And still learning something new</p>
     </section>
     <section id="project">
         <h2>Here is my work in progress project</h2>
-        <div>
+        <div class="link">
             <a href="./my-contact.html">Table</a><br>
             <a href="./document.html">Document Story</a><br>
         </div>
